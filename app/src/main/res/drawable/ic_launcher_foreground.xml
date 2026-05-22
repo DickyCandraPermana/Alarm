@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clock Left Leg -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M34,80 L24,90" />
+
+    <!-- Clock Right Leg -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M74,80 L84,90" />
+
+    <!-- Left Alarm Bell -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23.1,34.5 C24.8,31.2 29.2,28.8 34,29.1 C38.8,29.4 42.6,32.4 43.1,35.9 L23.1,34.5 Z" />
+
+    <!-- Right Alarm Bell -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84.9,34.5 C83.2,31.2 78.8,28.8 74,29.1 C69.2,29.4 65.4,32.4 64.9,35.9 L84.9,34.5 Z" />
+
+    <!-- Top Handle / Hammer -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,22 L54,18 L60,22" />
+
+    <!-- Clock Outer Ring -->
+    <path
+        android:fillColor="#D0BCFF"
+        android:pathData="M54,29 C38.5,29 26,41.5 26,57 C26,72.5 38.5,85 54,85 C69.5,85 82,72.5 82,57 C82,41.5 69.5,29 54,29 Z" />
+
+    <!-- Clock Inner Face -->
+    <path
+        android:fillColor="#0F0B10"
+        android:pathData="M54,34 C41.3,34 31,44.3 31,57 C31,69.7 41.3,80 54,80 C66.7,80 77,69.7 77,57 C77,44.3 66.7,34 54,34 Z" />
+
+    <!-- Mathematical Symbols inside Face quadrants (Custom detailed vectors) -->
+    <!-- PLUS glyph (+) in Top-Left quadrant -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D0BCFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M41,47 L49,47 M45,43 L45,51" />
+
+    <!-- MINUS glyph (-) in Top-Right quadrant -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D0BCFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M59,47 L67,47" />
+
+    <!-- MULTIPLY glyph (x) in Bottom-Left quadrant -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D0BCFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M41,63 L49,71 M49,63 L41,71" />
+
+    <!-- EQUALS glyph (=) in Bottom-Right quadrant -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D0BCFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M59,65 L67,65 M59,69 L67,69" />
+
+    <!-- Clock Center Pivot Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,57 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>

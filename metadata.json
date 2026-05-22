@@ -1,0 +1,6 @@
+{
+  "name": "Alarm Matematika",
+  "description": "Aplikasi alarm pintar yang mengharuskan Anda memecahkan persoalan matematika sulit untuk mematikannya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
